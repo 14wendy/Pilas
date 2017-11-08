@@ -1,0 +1,27 @@
+package sample;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class Main {
+    public static void main(String[] args) {
+        pilas p = new pilas();
+        p.push(2);
+        p.push(8);
+        p.push(1);
+
+        p.peek();
+        p.cima();
+        p.pop();
+        p.peek();
+        p.pop();
+        p.cima();
+        p.pop();
+        p.peek();
+
+    }
+}
+
